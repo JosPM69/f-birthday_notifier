@@ -1,3 +1,5 @@
+# Este proceso se encarga de enviar un email a los usuarios que tengan su cumpleaños en el día de hoy desde google sheets
+
 # Importaciones principales
 import pandas as pd
 from datetime import datetime
@@ -160,4 +162,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
